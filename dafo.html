@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tabla DAFO</title>
+<style>
+  body {
+    background-color: #f4f4f9;
+    margin: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  table {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  td {
+    padding: 15px;
+    border: 1px solid #333;
+    vertical-align: top;
+  }
+  .debilidades {
+    background-color: #ffe0e0;
+  }
+  .amenazas {
+    background-color: #ffe0e0;
+  }
+  .fortalezas {
+    background-color: #d0f0c0;
+  }
+  .oportunidades {
+    background-color: #d0f0c0;
+  }
+  .cuadrante-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+</style>
+</head>
+<body>
+
+<h1>Análisis DAFO</h1>
+
+<table>
+  <tr>
+    <th >Fortalezas</th>
+    <th >Debilidades</th>
+  </tr>
+  <tr>
+    <td class="fortalezas" style="width:50%;">
+      <div class="cuadrante-title">Fortalezas</div>
+      <ul>
+        <li>Gran dedicacion</li>
+        <li>Aprendizaje rapido</li>
+        <li>Capacidad para trabajar en equipo</li>
+        <li>Capacidad para boscar soluciones de forma independiente</li>
+      </ul>
+    </td>
+    <td class="debilidades" style="width:50%;">
+      <div class="cuadrante-title">Debilidades</div>
+      <ul>
+        <li>Falta de movilidad</li>
+        <li>Me gusta que todo salga bien a la primera</li>
+        <li>Demaciado perfeccionista</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <th >Oportunidades</th>
+    <th >Amenazas</th>
+  </tr>
+  <tr>
+    <td class="oportunidades" style="width:50%;">
+      <div class="cuadrante-title">Oportunidades</div>
+      <ul>
+        <li>Paginas de autoaprendizage</li>
+        <li>Proyectos personales</li>
+        <li>Creciente capacidad de la tecnologia</li>
+      </ul>
+    </td>
+    <td class="amenazas" style="width:50%;">
+      <div class="cuadrante-title">Amenazas</div>
+      <ul>
+        <li>Competencia creciente</li>
+        <li>Falta de experiencia</li>
+        <li>El incremento de costes en los productos informaticos</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
